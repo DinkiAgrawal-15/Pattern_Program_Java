@@ -1,0 +1,23 @@
+import java.util.*;
+class Main{
+    
+public static void main(String a[]){
+
+    int n=5;
+    int i,j;
+    char ch='A';
+    for(i=1;i<=n;i++){
+        for(j=1;j<=n;j++){
+            System.out.print(ch+" ");
+            if(ch<'Z'){
+            ch++;
+            }
+            else{
+            ch=(char)'A';
+            }
+        }
+        System.out.println();
+    }
+
+}
+}
