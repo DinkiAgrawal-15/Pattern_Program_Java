@@ -1,0 +1,14 @@
+import java.util.*;
+class Main{
+    public static void main(String a[]){
+        int n=5,x=2;
+        int i,j;
+        for(i=n;i>=1;i--){
+            for(j=n;j>=i;j--){
+                System.out.print(x);
+                x+=2;
+            }
+            System.out.println("");
+        }
+    }
+}
