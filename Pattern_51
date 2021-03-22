@@ -1,0 +1,15 @@
+import java.util.*;
+class Main{
+    public static void main(String a[]){
+        int n=5;
+        int x=(n*(n+1))/2; 
+        for(int i=n;i>=1;i--)
+        {
+            for(int j=n;j>=i;j--){
+                System.out.printf("%2d",x--);
+            }
+            System.out.println();
+        }
+        
+    }
+}
