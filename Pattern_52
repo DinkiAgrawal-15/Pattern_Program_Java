@@ -1,0 +1,21 @@
+import java.util.*;
+class Main{
+    public static void main(String a[]){
+
+    int n=5;
+    int i,j;
+    int x=n;
+    int y,t;
+    for(i=n;i>=1;i--){
+        t=x;
+        y=i+1;
+        for(j=n;j>=i;j--){
+            System.out.printf("%2d",t);
+            t=t-y;
+            y++;
+        }
+        x=x+i-1;
+        System.out.printf("\n");
+    }
+}
+}
