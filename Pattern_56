@@ -1,0 +1,19 @@
+import java.util.*;
+class Main{
+
+
+    public static void main(String a[]){
+    int n=10;
+    int i,j,k;
+    for(i=1;i<=n;i++)
+    {
+        k=i;
+        for(j=1;j<=i;j++){
+            System.out.printf("%3d",k);
+            k=k+(n-j);
+        }
+        System.out.printf("\n");
+    }
+
+}
+}
