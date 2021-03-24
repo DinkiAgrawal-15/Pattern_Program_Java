@@ -1,0 +1,23 @@
+import java.util.*;
+class Main{
+    public static void main(String a[]){
+        int firstNum=0,secondNum=1,result=0;
+        int i,j;
+        int n=5;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=i;j++){
+                firstNum=secondNum;
+                secondNum=result;
+                System.out.printf("%2d",result);
+                result=firstNum+secondNum;
+                
+            }
+            firstNum=0;
+            secondNum=1;
+            result=0;
+            System.out.printf("\n");
+        }
+}
+    
+    
+}
