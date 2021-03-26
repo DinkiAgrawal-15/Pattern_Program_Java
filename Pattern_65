@@ -1,0 +1,12 @@
+import java.util.*;
+class Main{
+  public static void main(String a[]){
+    char i,j;
+    for(i='A';i<='E';i++){
+        for(j='A';j<=i;j++){
+            System.out.printf("%c",i);
+        }
+        System.out.printf("\n");
+    }
+}
+}
