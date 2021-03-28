@@ -1,0 +1,13 @@
+import java.util.*;
+class Main{
+    public static void main(String a[]){
+
+    int n=5;
+    int i,j;
+    for(i=0;i<n;i++){
+        for(j=i;j>=0;j--){
+           System.out.printf("%c",j+65);
+        }
+        System.out.printf("\n");
+ }   }
+}
