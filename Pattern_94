@@ -1,0 +1,19 @@
+import java.util.*;
+class Main{
+  public static void main(String a[]){
+    int n=5;
+    int i,j;
+    char ch='A';
+    for(i=1;i<=n;i++){
+        for(j=1;j<=i;j++){
+            System.out.printf("%2c",ch);
+            if(ch<'Z')
+            ch++;
+            else
+            ch='A';
+
+        }
+        System.out.printf("\n");
+    }
+}
+}
