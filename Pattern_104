@@ -1,0 +1,21 @@
+import java.util.*;
+class Main{
+    public static void main(String a[]){
+        
+    
+    int n=5;
+    int i,j,s;
+    int px;
+    for(i=1;i<=n;i++){
+        for(s=n-1;s>=i;s--){
+            System.out.printf(" ");
+        }
+        px=1;
+        for(j=1;j<=i;j++){
+            System.out.printf("%2d",px);
+            px=px*(i-j)/j;
+        }
+        System.out.printf("\n");
+    }
+}
+}
