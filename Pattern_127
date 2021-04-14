@@ -1,0 +1,18 @@
+import java.util.*;
+public class Main{
+    public static void main(String a[]){
+    int n=5;
+    int i,j,k;
+    for(i=1;i<=n;i++){
+        for(j=0;j<i;j++){
+                    System.out.printf(" ");
+        }
+        for(k=n-i;k>=0;k--){
+                        System.out.printf("%2c",k+65);
+
+        }
+
+
+        System.out.printf("\n");
+    }
+}}
