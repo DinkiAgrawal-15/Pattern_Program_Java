@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main{
+    public static void main(String a[]){
+    int n=5;
+    int px=n;
+    int py=n;
+    int i,j;
+    for(i=1;i<=n;i++){
+        for(j=1;j<n*2;j++){
+            if(j>=px && j<=py){
+                    System.out.printf("%d",i);
+        }else{
+                        System.out.printf(" ");
+
+        }
+    }
+    px--;
+    py++;
+
+
+        System.out.printf("\n");
+    }
+}}
