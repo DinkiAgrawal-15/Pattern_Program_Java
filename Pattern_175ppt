@@ -1,0 +1,27 @@
+import java.util.*;
+class Main
+{
+  public static void main(String abc[])
+{
+    int i,j,n;
+    char ch='A';
+    Scanner sc=new Scanner(System.in);
+    n=sc.nextInt();
+    for(i=1;i<=n;i++){
+        for(j=1;j<=n-i;j++){
+            System.out.println(" ");
+        }
+        for(j=ch;j>='A';j--){
+            System.out.printf("%c",j);
+        }
+        for(j='B';j<=ch;j++){
+                        System.out.printf("%c",j);
+
+        }
+        System.out.printf("\n");
+        ch++;
+    }
+    
+    
+}
+}
