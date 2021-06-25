@@ -4,6 +4,7 @@ class Main{
     int n=5;
     int i,j;
     for(i=1;i<=n;i++){
+    
         for(j=1;j<=n-i+1;j++){
         
             System.out.printf("%2d",n-i+j);
